@@ -9,7 +9,7 @@ import java.util.List;
 public class Rune {
 
     @JsonProperty("rune_id")
-    private Integer runeId;
+    private Double runeId;
     @JsonProperty("wizard_id")
     private Integer wizard_id;
     @JsonProperty("occupied_type")
@@ -37,7 +37,7 @@ public class Rune {
     @JsonProperty("prefix_eff")
     private List<Integer> prefix_eff;
     @JsonProperty("sec_eff")
-    private List<Integer> sec_eff;
+    private sec_effObject sec_eff;
     @JsonProperty("extra")
     private List<Integer> extra;
 
